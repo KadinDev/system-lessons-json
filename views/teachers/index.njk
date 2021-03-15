@@ -1,0 +1,44 @@
+{% extends 'layout.njk' %}
+
+{% block head %}
+    <title> Área dos Professores </title>
+{% endblock %}
+
+{% block content %}
+    <div class="card table-container">
+            
+        <div class="newPerson">  <a href="/teachers/create">NOVO</a></div>
+
+        <table width='100%'>
+
+            <thead>
+                <tr>
+                    <th>Professores</th>
+                    <th>Acompanhamento</th>
+                    <th>Ação</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                {% for teacher in teachers %}
+                    <tr>
+                        <td>
+                            <span style="background-image: url({{ teacher.avatar_url }})"></span>
+                            {{ teacher.name }}
+                        </td>
+                    
+                        <td>
+                            
+                            <span>{{ teacher.services }}</span>
+                            
+                        </td>
+
+                        <td> <a href="/teachers/{{ teacher.id }}">Ver</a> </td>
+                    </tr>
+                {% endfor %}
+            </tbody>
+
+        </table>
+
+    </div>
+{% endblock %}

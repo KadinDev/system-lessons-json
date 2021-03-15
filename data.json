@@ -1,0 +1,91 @@
+{
+  "students": [
+    {
+      "id": 1,
+      "name": "Nath Cruz",
+      "avatar_url": "https://i.ytimg.com/vi/0hz06wPZL10/maxresdefault.jpg",
+      "birth": 610243200000,
+      "email": "natycruz@music.com",
+      "select": "3° Ano Completo",
+      "hobby": "BDA, Mc"
+    },
+    {
+      "id": 4,
+      "avatar_url": "https://f.i.uol.com.br/fotografia/2019/04/29/15565458905cc701626ae82_1556545890_3x2_md.jpg",
+      "name": "Jason Friend",
+      "birth": 168393600000,
+      "email": "jason@actor.com",
+      "select": "3° Ano Completo",
+      "hobby": "Movies, Director, Actor"
+    },
+    {
+      "id": 7,
+      "avatar_url": "https://static01.nyt.com/images/2020/11/18/arts/16taylor-masters/merlin_179096598_efc4232d-7251-4c29-b1c3-b4c4fb4d22fb-mobileMasterAt3x.jpg",
+      "name": "Taylor Swift",
+      "birth": 629164800000,
+      "email": "teste1@outlook.com",
+      "select": "3° Ano Completo",
+      "hobby": "Musica"
+    },
+    {
+      "id": 8,
+      "avatar_url": "https://www.estrelando.com.br/uploads/2016/12/02/milla-1480706998.jpg",
+      "name": "Mila Jovovich",
+      "birth": 304387200000,
+      "email": "mila@actor.com",
+      "select": "3° Ano Completo",
+      "hobby": "Artes Cênicas"
+    },
+    {
+      "id": 9,
+      "avatar_url": "https://i.pinimg.com/originals/03/68/ee/0368ee079e38e1fadc75445cfb04ef67.jpg",
+      "name": "Linda Jack",
+      "birth": 595209600000,
+      "email": "jack@modelo.br",
+      "select": "3° Ano Completo",
+      "hobby": "Fotografar, Dance, Leitura"
+    }
+  ],
+  "teachers": [
+    {
+      "id": 1,
+      "name": "Lara Smiles",
+      "avatar_url": "https://images.unsplash.com/photo-1580894895938-bd31a62ed8ba?ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80",
+      "birth": 481334400000,
+      "select": "Mestrado",
+      "aula": "P",
+      "services": "Português, Francês",
+      "created_at": 1603931791528
+    },
+    {
+      "id": 4,
+      "name": "Naty Torres",
+      "avatar_url": "https://assets.afcdn.com/story/20160810/952148_w980h638c1cx511cy250.jpg",
+      "birth": 497664000000,
+      "select": "Mestrado",
+      "aula": "D",
+      "services": "Music, Libras",
+      "created_at": 1606001907851
+    },
+    {
+      "id": 5,
+      "avatar_url": "https://www.estrelando.com.br/uploads/2018/02/13/julia-roberts-to-play-a-framed-mom-1518524999.jpg",
+      "name": "Paty Souza",
+      "birth": 320803200000,
+      "select": "Ensino Superior Completo",
+      "aula": "D",
+      "services": "Full Stack Developer",
+      "created_at": 1606427737116
+    },
+    {
+      "id": 6,
+      "avatar_url": "https://observatoriodocinema.uol.com.br/wp-content/uploads/2020/05/Jackie-Chan.jpg",
+      "name": "Jackie Chan",
+      "birth": -446774400000,
+      "select": "Doutorado",
+      "aula": "D",
+      "services": "Diretor, Cinema, Lutas",
+      "created_at": 1607121881025
+    }
+  ]
+}
